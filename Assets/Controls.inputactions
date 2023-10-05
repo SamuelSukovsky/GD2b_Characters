@@ -1,0 +1,98 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "d469fc56-e2e1-406f-8c47-f2e0b4761c6a",
+            "actions": [
+                {
+                    "name": "WS",
+                    "type": "Value",
+                    "id": "80571111-5a53-4d0b-8419-eab1b556dda1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AD",
+                    "type": "Value",
+                    "id": "250b87dd-a491-436d-a115-6dc5fd764962",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a2a99f95-8b63-4d91-8da7-e297fe3ccb21",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WS",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "91dc1cd1-b756-4b66-a1eb-bfe175217c22",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WS",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "bf1ec76f-4761-45a2-ba95-94469df93c88",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WS",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "b9bc948f-ec0c-4ddf-95f3-3f2e87c409d3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AD",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "65909ede-4abb-4c89-b0d9-794b49966178",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6cf289de-674a-4d5b-b8c3-6bd774d8b14a",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
